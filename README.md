@@ -32,6 +32,7 @@ First, clone the repo on your machine and then install with `pip`:
 git clone https://github.com/interviewBubble/Tabulo.git
 cd tabulo
 pip install -e .
+pip install -r requirements.txt
 ```
 
 
