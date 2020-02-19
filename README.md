@@ -21,7 +21,7 @@ Tabulo currently supports Python 2.7 and 3.4–3.6.
 First, clone the repo on your machine and then install with `pip`:
 
 ```bash
-git clone https://github.com/interviewBubble/Tabulo.git
+git clone https://github.com/rajgupt/Tabulo.git
 cd tabulo
 pip install -e .
 pip install -r requirements.txt
