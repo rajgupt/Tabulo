@@ -15,17 +15,9 @@ Tabulo is an open source toolkit for **computer vision**. Currently, we support 
 8. **[Working with datasets](#8-working-with-datasets)**<br>
 9. **[Training](#9-training)**<br>
 10. **[LICENSE](#10-license)**<br>
+
 ## 1. Installation Instructions
 Tabulo currently supports Python 2.7 and 3.4–3.6. 
-
-### 1.1 Pre-requisites
-
-To use Tabulo, [TensorFlow](https://www.tensorflow.org/install/) must be installed beforehand. If you want **GPU support**, you should install the GPU version of TensorFlow with `pip install tensorflow-gpu`, or else you can use the CPU version using `pip install tensorflow`.
-
-We are using tesseract to extract data from table so you have to install tesseract also. [Follow this link to install tessersact](https://interviewbubble.com/install-tesseract-on-mac-linux-windows-centos/)
-
-### 1.2 Installing Tabulo
-
 First, clone the repo on your machine and then install with `pip`:
 
 ```bash
@@ -36,7 +28,7 @@ pip install -r requirements.txt
 ```
 
 
-### 1.3 Check that the installation worked
+### Check that the installation worked
 
 Simply run `tabulo --help`.
 
